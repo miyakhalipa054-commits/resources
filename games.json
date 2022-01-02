@@ -1,16 +1,16 @@
 [
   {
-    id: "game_venge",
-    url: "https://venge.io",
-    icon: "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/5d08bffaaa50bc1062ce7f4a3c175b35.png",
-    name: "Venge.io",
-    creator: "Cem Demir"
+    "id": "game_venge",
+    "url": "https://venge.io",
+    "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/5d08bffaaa50bc1062ce7f4a3c175b35.png",
+    "name": "Venge.io",
+    "creator": "Cem Demir"
   },
   {
-    id: "game_flappybird",
-    url: "https://playcanv.as/p/2OlkUaxF",
-    icon: "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
-    name: "Flappy Bird",
-    creator: ".Gears"
+    "id": "game_flappybird",
+    "url": "https://playcanv.as/p/2OlkUaxF",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
+    "name": "Flappy Bird",
+    "creator": ".Gears"
   }
 ]
