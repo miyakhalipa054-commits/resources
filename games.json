@@ -7,6 +7,13 @@
     "creator": "Cem Demir"
   },
   {
+    "id": "game_paperio2",
+    "url": "https://paper-io.com",
+    "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
+    "name": "Paper.io 2",
+    "creator": "Voodoo"
+  },
+  {
     "id": "game_flappybird",
     "url": "https://playcanv.as/p/2OlkUaxF",
     "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
