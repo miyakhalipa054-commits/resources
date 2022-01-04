@@ -21,6 +21,13 @@
     "creator": ".Gears"
   },
   {
+    "id": "game_minecraftsurvival",
+    "url": "https://html5.gamedistribution.com/rvvASMiM/387d14e86c60468d99b9ed7c8c930d36/?gdpr-targeting=1&gdpr-tracking=1&gdpr-third-party=1&euConsent=CPSSd_zPSSd_zAcABBENB8CsAP_AAH_AAChQIfNf_X__b3_j-_5_f_t0eY1P9_7_v-0zjhfdt-8N2f_X_L8X42M7vF36pq4KuR4Eu3LBIQVlHOHcTUmw6okVrzPsbk2cr7NKJ7PEmnMbO2dYGH9_n93TuZKY7______z_v-v_v____f_7-3_3__5_3---_e_V_99zLv9____39nP___9v-_9_3_wQ-AJMNS8gC7MscGTaNKoUQIwrCQ6AUAFFAMLRFYQOrgp2VwE-oIWACE1ATgRAgxBRgwCAAASAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgKkWignsrEEoO9jTCEMs8CKBR_RUICNZogWBkJCwcxwBICXiyQPMEbgAAAA.f_gAD_gAAAAA&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2tleWdhbWVzLmNvbS8iLCJwYXJlbnREb21haW4iOiJrZXlnYW1lcy5jb20iLCJ0b3BEb21haW4iOiJrZXlnYW1lcy5jb20iLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjQifQ%253D%253D",
+    "icon": "https://static.keygames.com/8/114878/100743/146x146/mine-survival.webp",
+    "name": "Minecraft Survival",
+    "creator": ""
+  },
+  {
     "id": "game_paperio2",
     "url": "https://paper-io.com",
     "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/d2708e8aa31df3fe7b211bca36405d6d.png",
@@ -33,5 +40,12 @@
     "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/5d08bffaaa50bc1062ce7f4a3c175b35.png",
     "name": "Venge.io",
     "creator": "Cem Demir"
+  },
+  {
+    "id": "game_zombsroyale",
+    "url": "https://zombsroyale.io",
+    "icon": "https://play-lh.googleusercontent.com/_plrCfc_CwnbKELoUTU7DGVr2hA0a_1zoURQVf8AXVLbRhnHQhR2JpGCN6LU0vfVQ7g=s180-rw",
+    "name": "Zombs Royale",
+    "creator": "End Game"
   }
 ]
