@@ -1,10 +1,24 @@
 [
   {
-    "id": "game_venge",
-    "url": "https://venge.io",
-    "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/5d08bffaaa50bc1062ce7f4a3c175b35.png",
-    "name": "Venge.io",
-    "creator": "Cem Demir"
+    "id": "game_amongus",
+    "url": "https://amongusplay.online",
+    "icon": "https://amongusplay.online/favicon.png",
+    "name": "Among Us",
+    "creator": "Kevin Games"
+  },
+  {
+    "id": "game_bblegends",
+    "url": "https://html5.gamedistribution.com/rvvASMiM/3dbd133d0cd9468bafdf2c9812290f4b/?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2tldmluLmdhbWVzLyIsInBhcmVudERvbWFpbiI6ImtldmluLmdhbWVzIiwidG9wRG9tYWluIjoia2V2aW4uZ2FtZXMiLCJoYXNJbXByZXNzaW9uIjp0cnVlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjQifQ%253D%253D",
+    "icon": "https://pm.gamedistribution.com/@creative/3dbd133d0cd9468bafdf2c9812290f4b/0.3.1/150x150.jpeg",
+    "name": "Basketball Legends 2020",
+    "creator": "MadPuffers"
+  },
+  {
+    "id": "game_flappybird",
+    "url": "https://playcanv.as/p/2OlkUaxF",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
+    "name": "Flappy Bird",
+    "creator": ".Gears"
   },
   {
     "id": "game_paperio2",
@@ -14,10 +28,10 @@
     "creator": "Voodoo"
   },
   {
-    "id": "game_flappybird",
-    "url": "https://playcanv.as/p/2OlkUaxF",
-    "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
-    "name": "Flappy Bird",
-    "creator": ".Gears"
+    "id": "game_venge",
+    "url": "https://venge.io",
+    "icon": "https://img.poki.com/cdn-cgi/image/quality=100,width=128,height=128,fit=cover,g=0.5x0.5,f=auto/5d08bffaaa50bc1062ce7f4a3c175b35.png",
+    "name": "Venge.io",
+    "creator": "Cem Demir"
   }
 ]
