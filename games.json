@@ -47,5 +47,13 @@
     "icon": "https://play-lh.googleusercontent.com/_plrCfc_CwnbKELoUTU7DGVr2hA0a_1zoURQVf8AXVLbRhnHQhR2JpGCN6LU0vfVQ7g=s180-rw",
     "name": "Zombs Royale",
     "creator": "End Game"
+  },
+  {
+    "id": "game_gamezop",
+    "url": "https://www.gamezop.com/?id=4032",
+    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/gamezop.gif",
+    "name": "More at Gamezop",
+    "creator": "",
+    "openInTab": true
   }
 ]
