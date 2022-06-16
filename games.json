@@ -14,6 +14,13 @@
     "creator": "MadPuffers"
   },
   {
+    "id": "game_doodlecricket",
+    "url": "https://doodlecricket.github.io/",
+    "icon": "https://doodlecricket.github.io/statics/icons/favicon-96x96.png",
+    "name": "Doodle Cricket",
+    "creator": "asissuthar"
+  },
+  {
     "id": "game_flappybird",
     "url": "https://playcanv.as/p/2OlkUaxF",
     "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
