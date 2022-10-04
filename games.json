@@ -1,5 +1,12 @@
 [
   {
+    "id": "game_3dpinball",
+    "url": "https://98.js.org/programs/pinball/space-cadet.html",
+    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/3d%20pinball.png",
+    "name": "3d Pinball - Space Cadet",
+    "creator": "David Plummer"
+  },
+  {
     "id": "game_amongus",
     "url": "https://amongusplay.online",
     "icon": "https://amongusplay.online/favicon.png",
