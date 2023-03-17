@@ -77,5 +77,13 @@
     "name": "More at Gamezop",
     "creator": "",
     "openInTab": true
+  },
+  {
+    "id": "game_quizzop",
+    "url": "https://6421.play.quizzop.com/",
+    "icon": "https://static.gamezop.com/creatives/b305bcad-2ca8-48e2-9554-af2ec825c986.gif",
+    "name": "Play Quiz & Earn",
+    "creator": "",
+    "openInTab": true
   }
 ]
