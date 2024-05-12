@@ -17,6 +17,14 @@
     "openInTab": true
   },
   {
+    "id": "game_astrozop",
+    "url": "https://8888.read.astrozop.com/",
+    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/astrozop.png",
+    "name": "Astrozop",
+    "creator": "Gamezop",
+    "openInTab": true
+  },
+  {
     "id": "game_qureka",
     "url": "https://254.go.qureka.co/",
     "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/qureka.png",
