@@ -25,30 +25,6 @@
     "openInTab": true
   },
   {
-    "id": "game_qureka",
-    "url": "https://254.go.qureka.co/",
-    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/qureka.png",
-    "name": "Qureka Lite",
-    "creator": "CoolBoots",
-    "openInTab": true
-  },
-  {
-    "id": "game_mgl",
-    "url": "https://1284.go.mglgamez.co/",
-    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/mgl.png",
-    "name": "Mobile Games League",
-    "creator": "CoolBoots",
-    "openInTab": true
-  },
-  {
-    "id": "game_predchamp",
-    "url": "https://254.go.predchamp.io/",
-    "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/predchamp.png",
-    "name": "PredChamp",
-    "creator": "CoolBoots",
-    "openInTab": true
-  },
-  {
     "id": "game_3dpinball",
     "url": "https://98.js.org/programs/pinball/space-cadet.html",
     "icon": "https://raw.githubusercontent.com/Visnalize/resources/main/images/3d%20pinball.png",
@@ -79,7 +55,7 @@
   {
     "id": "game_doodlecricket",
     "url": "https://doodlecricket.github.io/",
-    "icon": "https://doodlecricket.github.io/statics/icons/favicon-96x96.png",
+    "icon": "https://doodlecricket.github.io/doodle-cricket.svg",
     "name": "Doodle Cricket",
     "creator": "asissuthar"
   },
@@ -117,5 +93,26 @@
     "icon": "https://play-lh.googleusercontent.com/_plrCfc_CwnbKELoUTU7DGVr2hA0a_1zoURQVf8AXVLbRhnHQhR2JpGCN6LU0vfVQ7g=s180-rw",
     "name": "Zombs Royale",
     "creator": "End Game"
-  }
+  },
+  {
+    "id": "game_basketballfrvr",
+    "url": "https://basketball.frvr.com/",
+    "icon": "https://cdn.frvr.com/2021/icons/96/basketball.webp",
+    "name": "basketball FRVR",
+    "creator": "FRVR"
+  },
+  {
+    "id": "game_slashfrvr",
+    "url": "https://slash.frvr.com/",
+    "icon": "https://cdn.frvr.com/2021/icons/96/slash.webp",
+    "name": "Slash FRVR",
+    "creator": "FRVR"
+  },
+  {
+    "id": "game_golddiggerfrvr",
+    "url": "https://golddigger.frvr.com/",
+    "icon": "https://cdn.frvr.com/2021/icons/96/golddigger.webp",
+    "name": "Gold Digger FRVR",
+    "creator": "FRVR"
+  },
 ]
