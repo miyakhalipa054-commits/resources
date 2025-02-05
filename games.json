@@ -114,5 +114,12 @@
     "icon": "https://cdn.frvr.com/2021/icons/96/golddigger.webp",
     "name": "Gold Digger FRVR",
     "creator": "FRVR"
+  },
+  {
+    "id": "game_doodle_halloween",
+    "url": "https://doodlecricket.github.io/doodle-halloween",
+    "icon": "https://doodlecricket.github.io/doodle-halloween/icons/favicon-96x96.png",
+    "name": "Doodle Halloween",
+    "creator": "asissuthar"
   }
 ]
