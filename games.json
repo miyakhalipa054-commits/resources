@@ -121,5 +121,12 @@
     "icon": "https://doodlecricket.github.io/doodle-halloween/icons/favicon-96x96.png",
     "name": "Doodle Halloween",
     "creator": "asissuthar"
+  },
+  {
+    "id": "game_doodle_garden_gnomes",
+    "url": "https://doodlecricket.github.io/doodle-garden-gnomes",
+    "icon": "https://doodlecricket.github.io/doodle-garden-gnomes/icons/favicon-96x96.png",
+    "name": "Doodle Garden Gnomes",
+    "creator": "asissuthar"
   }
 ]
