@@ -29,10 +29,10 @@ jobs:
           }
 
           # Extract game details using awk
-          GAME_URL=$(normalize_text | awk '/^### Game URL$/{getline; print $0}' | xargs)
-          GAME_ICON=$(normalize_text | awk '/^### Game icon$/{getline; print $0}' | xargs)
-          GAME_NAME=$(normalize_text | awk '/^### Game title$/{getline; print $0}' | xargs)
-          GAME_CREATOR=$(normalize_text | awk '/^### Game creator$/{getline; print $0}' | xargs)
+          GAME_URL=$(normalize_text | awk '/^### Game URL$/{getline; getline; print $0}' | xargs)
+          GAME_ICON=$(normalize_text | awk '/^### Game icon$/{getline; getline; print $0}' | xargs)
+          GAME_NAME=$(normalize_text | awk '/^### Game title$/{getline; getline; print $0}' | xargs)
+          GAME_CREATOR=$(normalize_text | awk '/^### Game creator$/{getline; getline; print $0}' | xargs)
 
           # Create GAME_ID
           GAME_ID="game_$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9_' '_')"
