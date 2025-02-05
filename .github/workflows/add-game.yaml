@@ -1,0 +1,57 @@
+name: Create Game PR from Issue
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'game')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install jq
+        run: sudo apt-get install jq -y
+
+      - name: Extract game details from issue
+        id: extract
+        run: |
+          GAME_URL=$(echo "${{ github.event.issue.body }}" | awk -F'Game URL:' '{print $2}' | tr -d '\r' | xargs)
+          GAME_ICON=$(echo "${{ github.event.issue.body }}" | awk -F'Game icon:' '{print $2}' | tr -d '\r' | xargs)
+          GAME_NAME=$(echo "${{ github.event.issue.body }}" | awk -F'Game title:' '{print $2}' | tr -d '\r' | xargs)
+          GAME_CREATOR=$(echo "${{ github.event.issue.body }}" | awk -F'Game creator:' '{print $2}' | tr -d '\r' | xargs)
+          GAME_ID="game_$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9_' '_')"
+          echo "GAME_ID=$GAME_ID" >> $GITHUB_ENV
+          echo "GAME_URL=$GAME_URL" >> $GITHUB_ENV
+          echo "GAME_ICON=$GAME_ICON" >> $GITHUB_ENV
+          echo "GAME_NAME=$GAME_NAME" >> $GITHUB_ENV
+          echo "GAME_CREATOR=$GAME_CREATOR" >> $GITHUB_ENV
+
+      - name: Debug extracted values
+        run: |
+          echo "GAME_URL=${{ env.GAME_URL }}"
+          echo "GAME_ICON=${{ env.GAME_ICON }}"
+          echo "GAME_NAME=${{ env.GAME_NAME }}"
+          echo "GAME_CREATOR=${{ env.GAME_CREATOR }}"
+
+      - name: Update games.json
+        run: |
+          jq '. + [{"id": "${{ env.GAME_ID }}", "url": "${{ env.GAME_URL }}", "icon": "${{ env.GAME_ICON }}", "name": "${{ env.GAME_NAME }}", "creator": "${{ env.GAME_CREATOR }}"}]' games.json > temp.json && mv temp.json games.json
+
+      - name: Commit and create pull request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          title: "Add new game: ${{ env.GAME_NAME }}"
+          body: "This PR adds a new game suggested in issue #${{ github.event.issue.number }}."
+          branch: "add-game-${{ env.GAME_ID }}"
+          delete-branch: true
+          commit-message: "Add game: ${{ env.GAME_NAME }}"
+          base: main
