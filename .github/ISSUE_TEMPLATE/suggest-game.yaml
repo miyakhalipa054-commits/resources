@@ -1,10 +1,12 @@
 name: Suggest a game
-description: Suggest a game to be added in Win7 Simu online game list.
+description: Suggest a game to be added in Win7 Simu Online Games list.
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to suggest a game to improve Win7 Simu!
+        The suggested game will be added to the Online Games list in Win7 Simu as below:
+        <img width="470" alt="Image" src="https://github.com/user-attachments/assets/49304c46-9d38-4b99-83a5-a80cdc9a1c1b" />
   - type: checkboxes
     id: confirm
     attributes:
