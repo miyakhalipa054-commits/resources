@@ -1,0 +1,48 @@
+name: Reject Game Suggestion
+
+on:
+  pull_request:
+    types:
+      - closed
+
+jobs:
+  close-linked-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get first comment of PR
+        id: get-comment
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=${{ github.event.pull_request.number }}
+          REPO=${{ github.repository }}
+
+          # Get the first comment of the PR
+          COMMENT=$(gh api repos/$REPO/issues/$PR_NUMBER/comments --jq '.[0].body')
+
+          # Extract issue number (assuming #123 format)
+          ISSUE_NUMBER=$(echo "$COMMENT" | grep -oE '#[0-9]+' | head -1 | tr -d '#')
+
+          if [[ -z "$ISSUE_NUMBER" ]]; then
+            echo "No issue referenced in the first comment."
+            exit 0
+          fi
+
+          echo "issue=$ISSUE_NUMBER" >> $GITHUB_ENV
+
+      - name: Close the linked issue
+        if: env.issue != ''
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NUMBER=${{ env.issue }}
+          REPO=${{ github.repository }}
+
+          # Close the issue with "not planned" reason
+          gh api -X PATCH repos/$REPO/issues/$ISSUE_NUMBER -f state="closed" -f state_reason="not_planned"
+
+          # Add a comment to the issue
+          gh api repos/$REPO/issues/$ISSUE_NUMBER/comments -f body="This game is not eligible to be added. If you think this is a mistake, please review the details and create a new issue instead."
