@@ -36,6 +36,7 @@ jobs:
 
           # Create GAME_ID
           GAME_ID="game_$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9_' '_')"
+          GAME_ID=$(echo "$GAME_ID" | sed 's/_*$//')  # Remove trailing underscores if any
 
           # Set values to GitHub environment variables
           echo "GAME_ID=$GAME_ID" >> $GITHUB_ENV
@@ -60,7 +61,7 @@ jobs:
         with:
           title: "Add new game: ${{ env.GAME_NAME }}"
           body: "Close #${{ github.event.issue.number }} and add the suggested game automatically upon merging."
-          branch: "add-game-${{ env.GAME_ID }}"
+          branch: "add-${{ env.GAME_ID }}"
           delete-branch: true
           commit-message: "Add game: ${{ env.GAME_NAME }}"
           base: main
