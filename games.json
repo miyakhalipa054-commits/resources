@@ -114,5 +114,12 @@
     "icon": "https://cdn.frvr.com/2021/icons/96/golddigger.webp",
     "name": "Gold Digger FRVR",
     "creator": "FRVR"
+  },
+  {
+    "id": "game_tower_game",
+    "url": "https://www.towergame.app/",
+    "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/34e2cad0-8326-4a17-8d9f-f37832154061/dbzqc71-ef4d1435-8f7e-4f6d-91e0-6ecf950d4aeb.png",
+    "name": "Tower Game",
+    "creator": "iamkun"
   }
 ]
