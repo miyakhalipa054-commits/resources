@@ -24,10 +24,10 @@ jobs:
       - name: Extract game details from issue
         id: extract
         run: |
-          GAME_URL=$(echo "${{ github.event.issue.body }}" | awk -F'Game URL:' '{print $2}' | tr -d '\r' | xargs)
-          GAME_ICON=$(echo "${{ github.event.issue.body }}" | awk -F'Game icon:' '{print $2}' | tr -d '\r' | xargs)
-          GAME_NAME=$(echo "${{ github.event.issue.body }}" | awk -F'Game title:' '{print $2}' | tr -d '\r' | xargs)
-          GAME_CREATOR=$(echo "${{ github.event.issue.body }}" | awk -F'Game creator:' '{print $2}' | tr -d '\r' | xargs)
+          GAME_URL=$(echo "${{ github.event.issue.body }}" | awk -F'### Game URL' '{print $2}' | tr -d '\r' | xargs)
+          GAME_ICON=$(echo "${{ github.event.issue.body }}" | awk -F'### Game icon' '{print $2}' | tr -d '\r' | xargs)
+          GAME_NAME=$(echo "${{ github.event.issue.body }}" | awk -F'### Game title' '{print $2}' | tr -d '\r' | xargs)
+          GAME_CREATOR=$(echo "${{ github.event.issue.body }}" | awk -F'### Game creator' '{print $2}' | tr -d '\r' | xargs)
           GAME_ID="game_$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9_' '_')"
           echo "GAME_ID=$GAME_ID" >> $GITHUB_ENV
           echo "GAME_URL=$GAME_URL" >> $GITHUB_ENV
@@ -50,7 +50,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           title: "Add new game: ${{ env.GAME_NAME }}"
-          body: "This PR adds a new game suggested in issue #${{ github.event.issue.number }}."
+          body: "This adds a new game suggested in #${{ github.event.issue.number }}. Close #${{ github.event.issue.number }} automatically upon merging."
           branch: "add-game-${{ env.GAME_ID }}"
           delete-branch: true
           commit-message: "Add game: ${{ env.GAME_NAME }}"
