@@ -1,4 +1,4 @@
-name: Reject Game Suggestion
+name: Close Linked Issue When PR is Closed
 
 on:
   pull_request:
@@ -12,22 +12,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Get first comment of PR
-        id: get-comment
+      - name: Get linked issue from PR
+        id: get-issue
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PR_NUMBER=${{ github.event.pull_request.number }}
           REPO=${{ github.repository }}
 
-          # Get the first comment of the PR
-          COMMENT=$(gh api repos/$REPO/issues/$PR_NUMBER/comments --jq '.[0].body')
+          # Ensure the PR has a linked issue by looking for the 'Linked issues' section
+          # The 'Linked issues' should appear under 'pull_request' body metadata
+          if [[ -z "${{ github.event.pull_request.body }}" ]]; then
+            echo "No linked issue found."
+            exit 0
+          fi
 
-          # Extract issue number (assuming #123 format)
-          ISSUE_NUMBER=$(echo "$COMMENT" | grep -oE '#[0-9]+' | head -1 | tr -d '#')
+          # Check if the PR's body contains an issue reference like "#123"
+          ISSUE_NUMBER=$(echo "${{ github.event.pull_request.body }}" | grep -oE '#[0-9]+' | head -1 | tr -d '#')
 
           if [[ -z "$ISSUE_NUMBER" ]]; then
-            echo "No issue referenced in the first comment."
+            echo "No linked issue found."
             exit 0
           fi
 
@@ -42,7 +46,7 @@ jobs:
           REPO=${{ github.repository }}
 
           # Close the issue with "not planned" reason
-          gh api -X PATCH repos/$REPO/issues/$ISSUE_NUMBER -f state="closed" -f state_reason="not_planned"
+          gh api -X PATCH repos/$REPO/issues/$ISSUE_NUMBER -f state="closed" -f state_reason="not_planned" -H "Authorization: Bearer $GITHUB_TOKEN"
 
           # Add a comment to the issue
-          gh api repos/$REPO/issues/$ISSUE_NUMBER/comments -f body="This game is not eligible to be added. If you think this is a mistake, please review the details and create a new issue instead."
+          gh api repos/$REPO/issues/$ISSUE_NUMBER/comments -f body="This game is not eligible to be added. If you think this is a mistake, please review the details and create a new issue instead." -H "Authorization: Bearer $GITHUB_TOKEN"
