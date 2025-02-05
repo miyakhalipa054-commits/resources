@@ -1,5 +1,6 @@
 name: Suggest a game
 description: Suggest a game to be added in Win7 Simu Online Games list.
+labels: game
 body:
   - type: markdown
     attributes:
