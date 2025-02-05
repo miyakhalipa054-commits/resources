@@ -28,14 +28,16 @@ jobs:
             echo "${{ github.event.issue.body }}" | tr -d '\r'
           }
 
-          # Extract game details using regex
-          GAME_URL=$(normalize_text | sed -n '/^### Game URL$/,/^[[:space:]]*$/{ /^[[:space:]]*$/!p }' | head -n 1)
-          GAME_ICON=$(normalize_text | sed -n '/^### Game icon$/,/^[[:space:]]*$/{ /^[[:space:]]*$/!p }' | head -n 1)
-          GAME_NAME=$(normalize_text | sed -n '/^### Game title$/,/^[[:space:]]*$/{ /^[[:space:]]*$/!p }' | head -n 1)
-          GAME_CREATOR=$(normalize_text | sed -n '/^### Game creator$/,/^[[:space:]]*$/{ /^[[:space:]]*$/!p }' | head -n 1)
+          # Extract game details using awk
+          GAME_URL=$(normalize_text | awk '/^### Game URL$/{getline; print $0}' | xargs)
+          GAME_ICON=$(normalize_text | awk '/^### Game icon$/{getline; print $0}' | xargs)
+          GAME_NAME=$(normalize_text | awk '/^### Game title$/{getline; print $0}' | xargs)
+          GAME_CREATOR=$(normalize_text | awk '/^### Game creator$/{getline; print $0}' | xargs)
 
+          # Create GAME_ID
           GAME_ID="game_$(echo "$GAME_NAME" | tr '[:upper:]' '[:lower:]' | tr -cs 'a-z0-9_' '_')"
 
+          # Set values to GitHub environment variables
           echo "GAME_ID=$GAME_ID" >> $GITHUB_ENV
           echo "GAME_URL=$GAME_URL" >> $GITHUB_ENV
           echo "GAME_ICON=$GAME_ICON" >> $GITHUB_ENV
