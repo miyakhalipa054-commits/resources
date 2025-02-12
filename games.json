@@ -128,5 +128,12 @@
     "icon": "https://doodlecricket.github.io/doodle-garden-gnomes/icons/favicon-96x96.png",
     "name": "Doodle Garden Gnomes",
     "creator": "asissuthar"
+  },
+  {
+    "id": "game_https_download_cs_net_cs_source_v34_php",
+    "url": "https://download-cs.net/cs-source-v34.php",
+    "icon": "https://download-cs.net/cs-source-v34.php",
+    "name": "https://download-cs.net/cs-source-v34.php",
+    "creator": "https://download-cs.net/cs-source-v34.php"
   }
 ]
