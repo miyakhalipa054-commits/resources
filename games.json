@@ -128,5 +128,12 @@
     "icon": "https://doodlecricket.github.io/doodle-garden-gnomes/icons/favicon-96x96.png",
     "name": "Doodle Garden Gnomes",
     "creator": "asissuthar"
+  },
+  {
+    "id": "game_super_cow",
+    "url": "super cow",
+    "icon": "super cow",
+    "name": "super cow",
+    "creator": "super cow"
   }
 ]
