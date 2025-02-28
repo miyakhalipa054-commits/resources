@@ -40,10 +40,15 @@ body:
       description: Who made the game
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        The game is required to be embedded in iframe for it to work in Win7 Simu.
+        For this, please use the [Iframe Tester](https://iframetester.com), paste the game URL, and confirm if it works.
   - type: checkboxes
     id: confirm
     attributes:
-      label: Is the game URL able to load in the Iframe Tester (https://iframetester.com)?
+      label: Is the game URL able to load in the Iframe Tester?
       options:
-        - label: Yes, I can confirm it can load in iframe
+        - label: Yes, I can confirm that it loads
           required: true
