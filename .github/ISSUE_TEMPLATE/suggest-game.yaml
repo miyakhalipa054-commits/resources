@@ -7,14 +7,8 @@ body:
       value: |
         Thanks for taking the time to suggest a game to improve Win7 Simu!
         The suggested game will be added to the Online Games list in Win7 Simu as below:
+        
         <img width="470" height="367" alt="Image" src="https://github.com/user-attachments/assets/49304c46-9d38-4b99-83a5-a80cdc9a1c1b" />
-  - type: checkboxes
-    id: confirm
-    attributes:
-      label: Please note that the suggested game must be a web game and can open directly within an iframe.
-      options:
-        - label: I understand
-          required: true
   - type: input
     id: url
     attributes:
@@ -46,3 +40,10 @@ body:
       description: Who made the game
     validations:
       required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Is the game URL able to load in the Iframe Tester (https://iframetester.com)?
+      options:
+        - label: Yes, I can confirm it can load in iframe
+          required: true
