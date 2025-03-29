@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_car_game",
+    "url": "https://playhop.com/ro/app/241462#app-id=241462&catalog-session-uid=catalog-2623e245-fc9a-53d4-a5a3-e7c0d9e4f341-1717938539764-038d&rtx-reqid=8767279549503232345&pos=%7BlistType%3Acategorized%2CtabCategory%3Acommon%7D&redir-data=%7Bhttp_ref%3Ahttps%253A%252F%252Fplayhop.com%252Fro%2Crn%3A618076558%7D",
+    "icon": "https://ea113582f2.cbaul-cdnwnd.com/49cb536d8893f0354404147938aaa7aa/200000003-162b3162b5/450/Screenshot_20250329-143018%20%281%29-4.webp?ph=ea113582f2",
+    "name": "Car game",
+    "creator": "Playhop"
   }
 ]
