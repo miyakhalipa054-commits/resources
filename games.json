@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_eaglercraft_tabm_edition",
+    "url": "https://eaglercraft.com/mc/1.8.8-wasm/",
+    "icon": "https://www.bing.com/ck/a?!&&p=e75de34bebabe985fd61a50121e576a770c94c3d6d778c746db476f41c7fe293JmltdHM9MTc0MzgxMTIwMA&ptn=3&ver=2&hsh=4&fclid=3e3e0c17-4a74-69b0-1dcd-19334b70687b&u=a1L2ltYWdlcy9zZWFyY2g_cT1taW5lY3JhZnQlMjBpY29uJkZPUk09SVFGUkJBJmlkPUQxNjIwRjYxMkI3NkMyQ0I2REMxMDIxNEI5MDZEQTIyQTJCMURBMkE&ntb=1",
+    "name": "Eaglercraft: TABM Edition",
+    "creator": "TABM"
   }
 ]
