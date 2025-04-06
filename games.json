@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_https_www_google_com_url_sa_t_source_web_rct_j_opi_89978449_url_https_www_blood_strike_com_pc_download_ved_2ahukewjjmto00mkmaxw7xmwghwe3fg4qfnoecdaqaq_sqi_2_usg_aovvaw0dw17cqgsu9i_7rh3ncfcz",
+    "url": "https://www.blood-strike.com/m/pc_download/",
+    "icon": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.blood-strike.com/pc_download/&ved=2ahUKEwjJmtO00MKMAxW7XmwGHWe3FG4QFnoECDAQAQ&sqi=2&usg=AOvVaw0dW17CqgSu9I_7Rh3NCfCZ",
+    "name": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.blood-strike.com/pc_download/&ved=2ahUKEwjJmtO00MKMAxW7XmwGHWe3FG4QFnoECDAQAQ&sqi=2&usg=AOvVaw0dW17CqgSu9I_7Rh3NCfCZ",
+    "creator": "Bloodstrike"
   }
 ]
