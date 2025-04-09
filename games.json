@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_conquer_the_world_by_making_the_right_decision",
+    "url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.ridgge.conquercountries%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Dconquer%2Bcountry%26pcampaignid%3DAPPU_1_4wf2Z4rBEIeZ4-EP7ofJyQU&ved=2ahUKEwjKvu6OnsqMAxWHzDgGHe5DMlkQ44QBegQIJRAJ&usg=AOvVaw3jHXeFJ8maJE2z7_s4EHl5",
+    "icon": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dcom.ridgge.conquercountries%26hl%3Den%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Dconquer%2Bcountry%26pcampaignid%3DAPPU_1_4wf2Z4rBEIeZ4-EP7ofJyQU&ved=2ahUKEwjKvu6OnsqMAxWHzDgGHe5DMlkQ5YQBegQIJRAC&usg=AOvVaw3jHXeFJ8maJE2z7_s4EHl5",
+    "name": "Conquer the world by making the right decision",
+    "creator": "Supersonic studios LTD"
   }
 ]
