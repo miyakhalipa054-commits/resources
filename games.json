@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_ex_network_module",
+    "url": "ex.https://my-Network module.com",
+    "icon": "ex.https://cdn.my-Network module-game .com/icon.png",
+    "name": "ex.Network module",
+    "creator": "所视皆为过往，所想皆为未来我们见到的太阳是8分钟之前的太阳，见到的月亮是1.3秒之前的月亮，见到一英里以外的建筑是5微秒之前的存在。即使你在我一米以外，我见到的也是3纳秒以前的你。我们所见的都是过去。"
   }
 ]
