@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_dota_2",
+    "url": "https://www.google.com/search?client=ms-android-samsung-ss&sca_esv=fa5240a70927b880&sxsrf=AHTn8zol98zK4GbVV4THsIPHhQW0A44_0A:1745321067759&q=rick+roll&udm=7&fbs=ABzOT_AptPOogln5XBVlG1bQ1ErzKpFUTaSQ5UtWquMZS_ccPfgRUJVn-NIMeUeQlM1ir2FlaVh1reuywirW80YFZ74b4TGQtYMAaGPxyTFoKA67QcvHVGHCaQ5FZfHdoKjB8zrUASkvX6AUjVflFokJ3Kogq44BpKjTdRpEVacs-x7oLRX6qWcY26y83F3SDOS7Axm1x2QNApuNDz5hKo1HLv2CYJ7VqutXwXwzKdDQUTD50jfpa-MroBoOyUOTwz1R4uuH3-T6F0jMWdKFPnGO6gdo9x1f-A&sa=X&ved=2ahUKEwjz0ozSw-uMAxVaKBAIHZg_LgYQtKgLegQIFRAB&biw=411&bih=780&dpr=2.63#fpstate=ive&vld=cid:99cf5550,vid:dQw4w9WgXcQ,st:0https://www.google.com/search?client=ms-android-samsung-ss&sca_esv=fa5240a70927b880&sxsrf=AHTn8zol98zK4GbVV4THsIPHhQW0A44_0A:1745321067759&q=rick+roll&udm=7&fbs=ABzOT_AptPOogln5XBVlG1bQ1ErzKpFUTaSQ5UtWquMZS_ccPfgRUJVn-NIMeUeQlM1ir2FlaVh1reuywirW80YFZ74b4TGQtYMAaGPxyTFoKA67QcvHVGHCaQ5FZfHdoKjB8zrUASkvX6AUjVflFokJ3Kogq44BpKjTdRpEVacs-x7oLRX6qWcY26y83F3SDOS7Axm1x2QNApuNDz5hKo1HLv2CYJ7VqutXwXwzKdDQUTD50jfpa-MroBoOyUOTwz1R4uuH3-T6F0jMWdKFPnGO6gdo9x1f-A&sa=X&ved=2ahUKEwjz0ozSw-uMAxVaKBAIHZg_LgYQtKgLegQIFRAB&biw=411&bih=780&dpr=2.63#fpstate=ive&vld=cid:99cf5550,vid:dQw4w9WgXcQ,st:0",
+    "icon": "https://cdn.cloudflare.steamstatic.com/apps/dota2/images/favicon.ico",
+    "name": "Dota 2",
+    "creator": "Eul"
   }
 ]
