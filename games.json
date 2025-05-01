@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_chrome_dino_by_google",
+    "url": "https://chrome-dino-game.github.io/",
+    "icon": "https://cdn2.steamgriddb.com/icon/435f85065ed99df6943f76728f496051/4/256x256.png",
+    "name": "Chrome Dino by Google",
+    "creator": "Droidmates88"
   }
 ]
