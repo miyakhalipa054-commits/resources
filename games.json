@@ -135,5 +135,12 @@
     "icon": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fangrybirds%2Fimages%2F7%2F70%2FAngryBirds_Classic_GameIcon_Vector_2.png%2Frevision%2Flatest%2Fscale-to-width-down%2F1200%3Fcb%3D20220626150110&f=1&nofb=1&ipt=209252d473ead0d10569a67afc16ee340a284cff8e04905c346a4ff5861196d1&ipo=images",
     "name": "Angry Birds Chrome",
     "creator": "Rovio Entertainment Ltd."
+  },
+  {
+    "id": "game_ex_crazy_cattle_3d",
+    "url": "https://crazycattle3d.com/#online-game",
+    "icon": "https://camo.githubusercontent.com/8dc2dec0358163a850fafcd616cc6a9c8b5f4ed1a06aa499b7ca0052c1a30fe4/68747470733a2f2f6372617a79636174746c6533642e67616d65732f696d616765732f4372617a79436174746c6533442e706e67",
+    "name": "ex. Crazy cattle 3d",
+    "creator": "Anna maybreey"
   }
 ]
