@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_torent",
+    "url": "https://itorrents-igruha.org/",
+    "icon": "https://itorrents-igruha.org/",
+    "name": "Torent",
+    "creator": "Rorokd"
   }
 ]
