@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_sandboxels",
+    "url": "sandboxels.r47n.com",
+    "icon": "https://sandboxels.r74n.com/icons/icon.png",
+    "name": "Sandboxels",
+    "creator": "r47n"
   }
 ]
