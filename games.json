@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_jupyter_notebook",
+    "url": "https://jupyter.org/try-jupyter/notebooks/?path=notebooks/Intro.ipynb",
+    "icon": "https://jupyter.org/try-jupyter/notebooks/?path=notebooks/Intro.ipynb",
+    "name": "Jupyter notebook",
+    "creator": "Santhosh Mahadevan"
   }
 ]
