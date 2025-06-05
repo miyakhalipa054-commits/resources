@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_meu_jogo",
+    "url": "Https://my-web-game.com",
+    "icon": "https:cdn.my-web-game.com/ícon.png",
+    "name": "Meu jogo",
+    "creator": "GGPRO"
   }
 ]
