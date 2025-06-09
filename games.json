@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_intl_wps_com",
+    "url": "myWeb",
+    "icon": "Cdnmyweb.com",
+    "name": "intl@wps.com",
+    "creator": "Security Kw"
   }
 ]
