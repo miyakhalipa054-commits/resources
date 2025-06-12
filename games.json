@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_my_wonderful_game",
+    "url": "https://www.4399.com/",
+    "icon": "https://www.4399.com/",
+    "name": "My wonderful game",
+    "creator": "yananws"
   }
 ]
