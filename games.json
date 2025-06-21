@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_not_ktft",
+    "url": "https://minecraft.ar.uptodown.com/windows",
+    "icon": "https://minecraft.ar.uptodown.com/windows",
+    "name": "not ktft",
+    "creator": "not"
   }
 ]
