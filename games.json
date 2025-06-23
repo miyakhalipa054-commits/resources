@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_friv",
+    "url": "https://www.frivclassic.com/",
+    "icon": "https://images.app.goo.gl/J8Pzs",
+    "name": "Friv",
+    "creator": "Saya"
   }
 ]
