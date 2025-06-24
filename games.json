@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_vusal",
+    "url": "Vusal",
+    "icon": "Vusal",
+    "name": "Vusal",
+    "creator": "Vusal"
   }
 ]
