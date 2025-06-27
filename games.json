@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_fireboy_and_watergirl_forest_temple",
+    "url": "https://igroutka.ru/loader/game/1309/",
+    "icon": "https://igroutka.ru/uploads/posts/2020-12/thumbs/1609163734_fireboy-and-watergirl-forest-temple.jpeg",
+    "name": "FIREBOY AND WATERGIRL FOREST TEMPLE",
+    "creator": "Oslo Albet, Agame"
   }
 ]
