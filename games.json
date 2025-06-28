@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_win7_simu",
+    "url": "https://win7simu.visnalize.com/",
+    "icon": "https://www.roblox.com/login",
+    "name": "win7 simu",
+    "creator": "idk"
   }
 ]
