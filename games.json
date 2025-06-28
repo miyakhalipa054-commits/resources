@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_free_fire_play",
+    "url": "Free fire play",
+    "icon": "Free fire play",
+    "name": "Free fire play",
+    "creator": "Forrest li"
   }
 ]
