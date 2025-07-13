@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_left_4_dead_2",
+    "url": "Left 4 dead 2",
+    "icon": "Left 4 dead 2",
+    "name": "Left 4 dead 2",
+    "creator": "Left 4 dead 2"
   }
 ]
