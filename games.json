@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_ce_jeu_est_g_nial",
+    "url": "http://game.mg.com",
+    "icon": "http://game. box-office .com",
+    "name": "Ce jeu est génial.",
+    "creator": "François"
   }
 ]
