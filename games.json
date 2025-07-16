@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_sushi_cat",
+    "url": "https://armorgames.com",
+    "icon": "Armor Games https://armorgames.com Sushi Cat - Play on Armor Games",
+    "name": "Sushi Cat",
+    "creator": "Joey Betz"
   }
 ]
