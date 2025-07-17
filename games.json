@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_solar_smash",
+    "url": "Solar Smash https://share.google/iZqNImBksldGiUw9T",
+    "icon": "Solar Smash https://share.google/iZqNImBksldGiUw9T",
+    "name": "Solar Smash",
+    "creator": "Paradyme games"
   }
 ]
