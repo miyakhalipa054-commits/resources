@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_noo",
+    "url": "https://MotoGP08.cim",
+    "icon": "Belum ada",
+    "name": "Noo",
+    "creator": "Jusjs"
   }
 ]
