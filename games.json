@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_windows_simulator",
+    "url": "game guardian",
+    "icon": "game guardian",
+    "name": "windows simulator",
+    "creator": "game guardian"
   }
 ]
