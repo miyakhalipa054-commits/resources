@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_titid",
+    "url": "https://an1.com",
+    "icon": "https://kontol.png",
+    "name": "Titid",
+    "creator": "jembut"
   }
 ]
