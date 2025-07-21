@@ -142,5 +142,12 @@
     "icon": "https://myveryownteardrop.xyz/images/Logo.png",
     "name": "My teardrop",
     "creator": "Vendorment"
+  },
+  {
+    "id": "game_old_io_tank_game",
+    "url": "https://diep.io/",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
+    "name": "Old IO Tank Game",
+    "creator": "Matheus Valadares"
   }
 ]
