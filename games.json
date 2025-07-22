@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "Old IO Tank Game",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_best_fifa",
+    "url": "Fifa 21.play",
+    "icon": "https//FIFA 21 logo.com",
+    "name": "Best Fifa",
+    "creator": "EA Sports"
   }
 ]
