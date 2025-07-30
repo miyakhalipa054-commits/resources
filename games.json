@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_amongusplay_online_go_9172",
+    "url": "amongusplay.online/?go-9172",
+    "icon": "amongusplay.online/?go-9172",
+    "name": "amongusplay.online/?go-9172",
+    "creator": "Free fire"
   }
 ]
