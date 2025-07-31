@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_mario_wonder",
+    "url": "https://shafox.itch.io/super-mario-bros-wonder",
+    "icon": "https://img.itch.zone/aW1nLzEzNjY1NTQ1LnBuZw==/original/6w%2BJQr.png",
+    "name": "Mario Wonder",
+    "creator": "Gest"
   }
 ]
