@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_ex_awesome_game",
+    "url": "ex.https://my_ web_game",
+    "icon": "ex.https://cdn.my_web_game//icon.web",
+    "name": "ex.awesome game",
+    "creator": "ON free fire favity"
   }
 ]
