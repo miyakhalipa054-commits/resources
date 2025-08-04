@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_bgmi",
+    "url": "battlegroundsmobileindia.com",
+    "icon": "https://en.wikipedia.org/wiki/File:Logo_of_BGMI.png",
+    "name": "Bgmi",
+    "creator": "Krafton"
   }
 ]
