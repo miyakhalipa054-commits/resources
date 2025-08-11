@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_pes2013",
+    "url": "Pes2013",
+    "icon": "Pes2013",
+    "name": "Pes2013",
+    "creator": "Pes2013"
   }
 ]
