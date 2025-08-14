@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_grand_theft_auto_v",
+    "url": "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced",
+    "icon": "https://icons8.com/icon/c7wDY2TRDZHz/gta-5",
+    "name": "Grand theft auto V",
+    "creator": "Rockstar Games"
   }
 ]
