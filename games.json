@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_monstertile",
+    "url": "/https.monstertile.download.com",
+    "icon": "ex.https//cdn.monstertile//icon.pg",
+    "name": "Monstertile",
+    "creator": "MerusheVerezi"
   }
 ]
