@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_war_is_perfect",
+    "url": "https://krunker.io",
+    "icon": "https://www.crazygames.com/game/krunker-io",
+    "name": "War is perfect",
+    "creator": "Sidney de Vries"
   }
 ]
