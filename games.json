@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_my_awesome_game",
+    "url": "Games.com",
+    "icon": "Games.com",
+    "name": "My awesome game",
+    "creator": "My games"
   }
 ]
