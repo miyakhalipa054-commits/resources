@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_nzn",
+    "url": "GJ",
+    "icon": "BN",
+    "name": "Nzn",
+    "creator": "Bsm"
   }
 ]
