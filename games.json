@@ -149,5 +149,12 @@
     "icon": "https://upload.wikimedia.org/wikipedia/en/e/e2/Diepio_mobile_logo.webp",
     "name": "diep.io",
     "creator": "Matheus Valadares"
+  },
+  {
+    "id": "game_https_en_softonic_com_downloads_pc_games_for_android",
+    "url": "https://en.softonic.com/downloads/pc-games-for-android",
+    "icon": "https://en.softonic.com/downloads/pc-games-for-android",
+    "name": "https://en.softonic.com/downloads/pc-games-for-android",
+    "creator": "https://en.softonic.com/downloads/pc-games-for-android"
   }
 ]
